@@ -606,51 +606,6 @@ function setupMenu() {
 }
 
 // ===========================
-// Touch Gestures for Mobile
-// ===========================
-function setupTouchGestures() {
-  let touchStartX = 0;
-  let touchEndX = 0;
-
-  const mainContent = document.getElementById("mainContent");
-
-  mainContent.addEventListener(
-    "touchstart",
-    (e) => {
-      touchStartX = e.changedTouches[0].screenX;
-    },
-    { passive: true }
-  );
-
-  mainContent.addEventListener(
-    "touchend",
-    (e) => {
-      touchEndX = e.changedTouches[0].screenX;
-      handleSwipe();
-    },
-    { passive: true }
-  );
-
-  function handleSwipe() {
-    const route = getRoute();
-    if (!route.startsWith("/quiz")) return;
-
-    const swipeThreshold = 50;
-    const diff = touchStartX - touchEndX;
-
-    if (Math.abs(diff) < swipeThreshold) return;
-
-    if (diff > 0 && state.currentPage < state.totalPages) {
-      // Swipe left - next page
-      navigateTo(`/quiz/${state.currentPage + 1}`);
-    } else if (diff < 0 && state.currentPage > 1) {
-      // Swipe right - previous page
-      navigateTo(`/quiz/${state.currentPage - 1}`);
-    }
-  }
-}
-
-// ===========================
 // Initialization
 // ===========================
 async function init() {
@@ -674,9 +629,6 @@ async function init() {
 
   // Setup menu
   setupMenu();
-
-  // Setup touch gestures
-  setupTouchGestures();
 
   // Setup router
   window.addEventListener("hashchange", router);
