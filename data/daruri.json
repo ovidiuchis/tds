@@ -1,0 +1,97 @@
+﻿[
+  {
+    "cod_dar": "a",
+    "nume": "Darul administrării",
+    "descriere": "Capacitatea de a organiza, coordona și gestiona resurse, oameni și proiecte pentru a atinge obiectivele spirituale. Persoanele cu acest dar pot clarifica ţelurile şi pot dezvolta strategii pentru realizarea lor."
+  },
+  {
+    "cod_dar": "b",
+    "nume": "Darul apostolatului",
+    "descriere": "Harul de a planta noi biserici și de a conduce lucrări spirituale în zone noi. Persoanele cu acest dar sunt atrași de misiune și pot să se adapteze bine diferitelor culturi sau contexte."
+  },
+  {
+    "cod_dar": "c",
+    "nume": "Darul iscusinței lucrului manual",
+    "descriere": "Abilitatea de a lucra creativ cu diverse materiale (lemn, metal, sticlă, croitorie, etc.) pentru a sprijini lucrarea bisericii. Persoanele cu acest dar pot produce lucruri practice și frumoase pentru comunitate."
+  },
+  {
+    "cod_dar": "d",
+    "nume": "Darul comunicării creative",
+    "descriere": "Capacitatea de a folosi diverse forme artistice (teatru, muzică, pictură, fotografie, etc.) pentru a comunica adevăruri spirituale și a provoca reflecția asupra lui Dumnezeu."
+  },
+  {
+    "cod_dar": "e",
+    "nume": "Darul discernământului",
+    "descriere": "Abilitatea de a distinge între adevăr și eroare spirituală, între bine și rău. Persoanele cu acest dar pot identifica repede înșelăciunea și pot simți când ceva nu este în concordanță cu Scriptura."
+  },
+  {
+    "cod_dar": "f",
+    "nume": "Darul încurajării",
+    "descriere": "Harul de a întări, încuraja și da speranță celor descurajați sau în dificultate. Persoanele cu acest dar văd potențialul din oameni și îi motivează să crească spiritual."
+  },
+  {
+    "cod_dar": "g",
+    "nume": "Darul evanghelizării",
+    "descriere": "Capacitatea de a comunica Evanghelia cu claritate și eficiență către necredincioși. Persoanele cu acest dar caută în mod natural ocazii să vorbească despre Cristos și sunt eficiente în a adapta mesajul la nevoile individuale."
+  },
+  {
+    "cod_dar": "h",
+    "nume": "Darul credinței",
+    "descriere": "Capacitatea extraordinară de a se încrede în Dumnezeu pentru lucruri mari, chiar și în circumstanțe dificile. Persoanele cu acest dar își pun încrederea în resursele și ajutorul constant al lui Dumnezeu."
+  },
+  {
+    "cod_dar": "i",
+    "nume": "Darul dărniciei",
+    "descriere": "Harul de a da cu generozitate și bucurie din resursele financiare pentru susținerea lucrării Domnului. Persoanele cu acest dar administrează bine banii pentru a avea cât mai mult de dăruit."
+  },
+  {
+    "cod_dar": "j",
+    "nume": "Darul ajutorării",
+    "descriere": "Capacitatea de a sprijini și ajuta pe alții în diverse sarcini practice, lucrând adesea în spatele scenei. Persoanele cu acest dar găsesc satisfacție în a face lucruri simple care îi ajută pe alții să fie mai eficienți."
+  },
+  {
+    "cod_dar": "k",
+    "nume": "Darul ospitalității",
+    "descriere": "Harul de a întâmpina și a găzdui oameni, făcându-i să se simtă bine-veniți și confortabili. Persoanele cu acest dar văd casa lor ca un loc de slujire și creează o atmosferă primitoare."
+  },
+  {
+    "cod_dar": "l",
+    "nume": "Darul mijlocirii",
+    "descriere": "Capacitatea de a se ruga consecvent și cu putere pentru alții. Persoanele cu acest dar petrec perioade lungi în rugăciune, primesc călăuzire în ce să se roage și văd rezultate specifice la rugăciunile lor."
+  },
+  {
+    "cod_dar": "m",
+    "nume": "Darul cunoașterii",
+    "descriere": "Abilitatea de a studia și înțelege în profunzime adevărurile biblice, descoperind înțelesuri pe care altora le scapă. Persoanele cu acest dar sunt devotați studiului Scripturii și primesc revelații de la Duhul Sfânt."
+  },
+  {
+    "cod_dar": "n",
+    "nume": "Darul conducerii",
+    "descriere": "Capacitatea de a motiva, influența și călăuzi pe alții către realizarea unei viziuni sau obiective. Persoanele cu acest dar pot stabili ţeluri clare și pot administra eficient oamenii și resursele."
+  },
+  {
+    "cod_dar": "o",
+    "nume": "Darul milei",
+    "descriere": "Harul de a simți compasiune profundă pentru cei care suferă și de a-i ajuta cu răbdare și empatie. Persoanele cu acest dar văd dincolo de probleme și pot sprijini pe cei considerați nedemni de ajutor."
+  },
+  {
+    "cod_dar": "p",
+    "nume": "Darul profeției",
+    "descriere": "Capacitatea de a proclama adevărul lui Dumnezeu cu îndrăzneală și a confrunta păcatul sau erorile. Persoanele cu acest dar simt responsabilitatea de a dezvălui adevărul, chiar când este nepopular."
+  },
+  {
+    "cod_dar": "q",
+    "nume": "Darul păstoririi",
+    "descriere": "Harul de a îngriji, proteja și călăuzi spiritual un grup de credincioși. Persoanele cu acest dar au compasiune pentru cei rătăciți și oferă sprijin pe termen lung, având grijă de întreaga persoană."
+  },
+  {
+    "cod_dar": "r",
+    "nume": "Darul învățăturii",
+    "descriere": "Capacitatea de a comunica Cuvântul lui Dumnezeu într-un mod clar, sistematic și care motivează pe alții să învețe. Persoanele cu acest dar petrec mult timp studiind și pot prezenta informații la un nivel accesibil."
+  },
+  {
+    "cod_dar": "s",
+    "nume": "Darul înțelepciunii",
+    "descriere": "Abilitatea de a aplica cunoștințele biblice în situații practice și de a găsi soluții simple la probleme complexe. Persoanele cu acest dar pot alege cel mai eficient mod de acțiune și oferă sfaturi practice și relevante."
+  }
+]

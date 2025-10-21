@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta
+      name="description"
+      content="Descoperă-ți darurile spirituale printr-un chestionar complet cu 133 de întrebări. Evaluează-ți talentele și vocația spirituală pentru slujire."
+    />
+    <meta
+      name="keywords"
+      content="daruri spirituale, evaluare spirituală, chestionar, test spiritual, vocație creștină, slujire"
+    />
+    <meta name="author" content="Evaluarea Darurilor Spirituale" />
+    <meta name="theme-color" content="#6366f1" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://yourdomain.com/" />
+    <meta property="og:title" content="Evaluarea Darurilor Spirituale" />
+    <meta
+      property="og:description"
+      content="Descoperă-ți darurile spirituale printr-un chestionar complet cu 133 de întrebări. Identifică cele 19 daruri spirituale și află cum te-a înzestrat Dumnezeu pentru slujire."
+    />
+    <meta property="og:image" content="assets/images/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="Evaluarea Darurilor Spirituale - 133 întrebări, 19 daruri spirituale"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://yourdomain.com/" />
+    <meta property="twitter:title" content="Evaluarea Darurilor Spirituale" />
+    <meta
+      property="twitter:description"
+      content="Descoperă-ți darurile spirituale printr-un chestionar complet cu 133 de întrebări."
+    />
+    <meta property="twitter:image" content="assets/images/og-image.png" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/images/icon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+
+    <!-- Manifest -->
+    <link rel="manifest" href="manifest.json" />
+
+    <title>Evaluarea Darurilor Spirituale</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- App Container -->
+    <div id="app">
+      <!-- Navigation Bar -->
+      <nav id="navbar" class="navbar">
+        <div class="nav-content">
+          <h1 class="nav-title">Daruri Spirituale</h1>
+          <button id="menuBtn" class="menu-btn" aria-label="Meniu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </nav>
+
+      <!-- Progress Bar (shown only during quiz) -->
+      <div id="progressContainer" class="progress-container hidden">
+        <div class="progress-info">
+          <span id="progressText">0 / 133</span>
+          <span id="progressPercent">0%</span>
+        </div>
+        <div class="progress-bar">
+          <div id="progressFill" class="progress-fill"></div>
+        </div>
+      </div>
+
+      <!-- Main Content Area -->
+      <main id="mainContent" class="main-content">
+        <!-- Routes will be injected here -->
+      </main>
+
+      <!-- Side Menu -->
+      <div id="sideMenu" class="side-menu">
+        <div class="side-menu-content">
+          <button class="close-menu" id="closeMenu">&times;</button>
+          <nav class="side-nav">
+            <a href="#/" class="nav-link">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+              </svg>
+              Acasă
+            </a>
+            <a href="#/quiz" class="nav-link">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"
+                ></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+              </svg>
+              Chestionar
+            </a>
+            <a href="#/results" class="nav-link">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M3 3v18h18"></path>
+                <path d="M18 17V9"></path>
+                <path d="M13 17V5"></path>
+                <path d="M8 17v-3"></path>
+              </svg>
+              Rezultate
+            </a>
+            <a href="#/gifts" class="nav-link">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                <circle cx="12" cy="7" r="4"></circle>
+              </svg>
+              Despre Daruri
+            </a>
+          </nav>
+          <div class="menu-footer">
+            <button id="resetBtn" class="reset-btn">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <polyline points="1 4 1 10 7 10"></polyline>
+                <path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"></path>
+              </svg>
+              Resetează Datele
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Overlay for menu -->
+      <div id="overlay" class="overlay"></div>
+    </div>
+
+    <!-- Templates -->
+    <template id="homeTemplate">
+      <div class="home-page">
+        <div class="hero">
+          <div class="hero-icon">✨</div>
+          <h1 class="hero-title">Descoperă-ți Darurile Spirituale</h1>
+          <p class="hero-description">
+            Un chestionar complet cu 133 de afirmații pentru a-ți descoperi cele
+            19 daruri spirituale. Rezultatele te vor ajuta să înțelegi cum te-a
+            înzestrat Dumnezeu pentru slujire.
+          </p>
+        </div>
+
+        <div class="info-card">
+          <div class="info-item">
+            <div class="info-icon">📝</div>
+            <div class="info-content">
+              <h3>133 Întrebări</h3>
+              <p>Împărțite în 10 pagini ușor de completat</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="info-icon">💾</div>
+            <div class="info-content">
+              <h3>Salvare Automată</h3>
+              <p>Progresul tău este salvat continuu</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="info-icon">📊</div>
+            <div class="info-content">
+              <h3>19 Daruri</h3>
+              <p>Analiză completă și rezultate detaliate</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="scale-info">
+          <h3>Scala de răspuns:</h3>
+          <div class="scale-items">
+            <div class="scale-item">
+              <span class="scale-value">3</span>
+              <span class="scale-label">Întotdeauna</span>
+            </div>
+            <div class="scale-item">
+              <span class="scale-value">2</span>
+              <span class="scale-label">De cele mai multe ori</span>
+            </div>
+            <div class="scale-item">
+              <span class="scale-value">1</span>
+              <span class="scale-label">Uneori</span>
+            </div>
+            <div class="scale-item">
+              <span class="scale-value">0</span>
+              <span class="scale-label">Niciodată</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="cta-buttons">
+          <button id="startQuizBtn" class="btn btn-primary btn-lg">
+            <span id="startBtnText">Începe Chestionarul</span>
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </template>
+
+    <template id="quizTemplate">
+      <div class="quiz-page">
+        <div class="quiz-header">
+          <h2 class="quiz-title">
+            Pagina <span id="currentPage">1</span> din
+            <span id="totalPages">10</span>
+          </h2>
+          <p class="quiz-subtitle">Răspunde sincer la fiecare afirmație</p>
+        </div>
+
+        <div id="questionsContainer" class="questions-container">
+          <!-- Questions will be injected here -->
+        </div>
+
+        <div class="quiz-navigation">
+          <button id="prevPageBtn" class="btn btn-secondary" disabled>
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <polyline points="15 18 9 12 15 6"></polyline>
+            </svg>
+            Înapoi
+          </button>
+          <div class="page-dots" id="pageDots">
+            <!-- Page indicators will be injected here -->
+          </div>
+          <button id="nextPageBtn" class="btn btn-primary">
+            Înainte
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </template>
+
+    <template id="questionTemplate">
+      <div class="question-card">
+        <div class="question-number">Întrebarea {number}</div>
+        <p class="question-text">{text}</p>
+        <div class="options-container">
+          <label class="option">
+            <input type="radio" name="q{number}" value="3" />
+            <span class="option-content">
+              <span class="option-value">3</span>
+              <span class="option-label">Întotdeauna</span>
+            </span>
+          </label>
+          <label class="option">
+            <input type="radio" name="q{number}" value="2" />
+            <span class="option-content">
+              <span class="option-value">2</span>
+              <span class="option-label">De cele mai multe ori</span>
+            </span>
+          </label>
+          <label class="option">
+            <input type="radio" name="q{number}" value="1" />
+            <span class="option-content">
+              <span class="option-value">1</span>
+              <span class="option-label">Uneori</span>
+            </span>
+          </label>
+          <label class="option">
+            <input type="radio" name="q{number}" value="0" />
+            <span class="option-content">
+              <span class="option-value">0</span>
+              <span class="option-label">Niciodată</span>
+            </span>
+          </label>
+        </div>
+      </div>
+    </template>
+
+    <template id="resultsTemplate">
+      <div class="results-page">
+        <div class="results-header no-print">
+          <h1 class="results-title">Rezultatele Tale</h1>
+          <p class="results-subtitle">
+            Descoperă-ți darurile spirituale dominante
+          </p>
+        </div>
+
+        <div id="completionWarning" class="warning-card hidden no-print">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"
+            ></path>
+            <line x1="12" y1="9" x2="12" y2="13"></line>
+            <line x1="12" y1="17" x2="12.01" y2="17"></line>
+          </svg>
+          <div>
+            <strong>Atenție!</strong> Ai răspuns doar la
+            <span id="answeredCount">0</span> din 133 întrebări. Pentru
+            rezultate complete, este recomandat să răspunzi la toate
+            întrebările.
+          </div>
+        </div>
+
+        <div id="topGiftsContainer" class="top-gifts-container">
+          <!-- Top gifts will be injected here -->
+        </div>
+
+        <div class="results-actions no-print">
+          <button id="printBtn" class="btn btn-primary">
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <polyline points="6 9 6 2 18 2 18 9"></polyline>
+              <path
+                d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"
+              ></path>
+              <rect x="6" y="14" width="12" height="8"></rect>
+            </svg>
+            Salvează PDF Rezultate
+          </button>
+        </div>
+
+        <div class="results-table-container">
+          <h2 class="section-title">Scorurile Tale Detaliate</h2>
+          <table class="results-table">
+            <thead>
+              <tr>
+                <th>Cod</th>
+                <th>Darul Spiritual</th>
+                <th>Scor</th>
+                <th>Max</th>
+              </tr>
+            </thead>
+            <tbody id="resultsTableBody">
+              <!-- Results will be injected here -->
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Print Date/Time (visible only in print) -->
+        <div class="print-only print-info">
+          <div class="print-date" id="printDate">
+            <!-- Date will be injected here -->
+          </div>
+          <div class="print-links" id="printLinks">
+            <!-- Links will be injected here -->
+          </div>
+        </div>
+
+        <div class="results-actions no-print">
+          <button id="viewGiftsBtn" class="btn btn-secondary">
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="12" y1="16" x2="12" y2="12"></line>
+              <line x1="12" y1="8" x2="12.01" y2="8"></line>
+            </svg>
+            Citește Despre Daruri
+          </button>
+        </div>
+      </div>
+    </template>
+
+    <template id="giftsTemplate">
+      <div class="gifts-page">
+        <div class="gifts-header">
+          <h1 class="gifts-title">Cele 19 Daruri Spirituale</h1>
+          <p class="gifts-subtitle">
+            Înțelege cum te-a înzestrat Dumnezeu pentru slujire
+          </p>
+        </div>
+
+        <div id="giftsContainer" class="gifts-container">
+          <!-- Gifts will be injected here -->
+        </div>
+      </div>
+    </template>
+
+    <template id="giftCardTemplate">
+      <div class="gift-card">
+        <div class="gift-header">
+          <span class="gift-code">{code}</span>
+          <h3 class="gift-name">{name}</h3>
+        </div>
+        <p class="gift-description">{description}</p>
+      </div>
+    </template>
+
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>

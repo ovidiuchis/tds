@@ -1,0 +1,667 @@
+[
+  {
+    "intrebare": "Îmi place să organizez oameni, sarcini şi evenimente.",
+    "cod_dar": "a",
+    "nr": 1
+  },
+  {
+    "intrebare": "Mi-ar place să plantez biserici în locuri în care nu există în prezent.",
+    "cod_dar": "b",
+    "nr": 2
+  },
+  {
+    "intrebare": "Îmi place să lucrez creativ în lemn, croitorie, pictură, metal, sticlă sau alte materiale.",
+    "cod_dar": "c",
+    "nr": 3
+  },
+  {
+    "intrebare": "Îmi place să provoc pe oamenii să se gândească la perspectiva care o au despre Dumnezeu folosind diferite forme artistice.",
+    "cod_dar": "d",
+    "nr": 4
+  },
+  {
+    "intrebare": "Pot deja să fac o distincţie între adevărul spiritual şi eroare, între bine şi rău.",
+    "cod_dar": "e",
+    "nr": 5
+  },
+  {
+    "intrebare": "Am tendinţa să văd potenţialul din oameni.",
+    "cod_dar": "f",
+    "nr": 6
+  },
+  {
+    "intrebare": "Comunic Evanghelia altora cu claritate şi eficienţă.",
+    "cod_dar": "g",
+    "nr": 7
+  },
+  {
+    "intrebare": "Găsesc natural şi uşor să mă încred în Dumnezeu pentru primirea răspunsului la rugăciunile mele.",
+    "cod_dar": "h",
+    "nr": 8
+  },
+  {
+    "intrebare": "Dau de bună voie şi cu bucurie oamenilor cu nevoi financiare sau proiectelor ce trebuie sprijinite.",
+    "cod_dar": "i",
+    "nr": 9
+  },
+  {
+    "intrebare": "Îmi place să lucrez în spatele scenei sprijinind lucrarea altora.",
+    "cod_dar": "j",
+    "nr": 10
+  },
+  {
+    "intrebare": "Privesc casa mea ca un loc în care să slujesc pe oamenii în nevoie.",
+    "cod_dar": "k",
+    "nr": 11
+  },
+  {
+    "intrebare": "Preiau cereri de rugăciune de la alţii şi mă rog consecvent pentru ele.",
+    "cod_dar": "l",
+    "nr": 12
+  },
+  {
+    "intrebare": "Sunt abordat de oameni care vreau să-mi cunoască perspectiva asupra unui anumit pasaj sau adevăr biblic.",
+    "cod_dar": "m",
+    "nr": 13
+  },
+  {
+    "intrebare": "Sunt capabil să motivez pe alţii pentru realizarea unui ţel.",
+    "cod_dar": "n",
+    "nr": 14
+  },
+  {
+    "intrebare": "Mă raliez oamenilor îndureraţi şi doresc să-i ajut în procesul vindecării.",
+    "cod_dar": "o",
+    "nr": 15
+  },
+  {
+    "intrebare": "Pot să vorbesc într-un mod care este convingător şi care aduce schimbare în vieţile altora.",
+    "cod_dar": "p",
+    "nr": 16
+  },
+  {
+    "intrebare": "Îmi place să petrec timp educând şi îngrijind pe alţii.",
+    "cod_dar": "q",
+    "nr": 17
+  },
+  {
+    "intrebare": "Sunt capabil să comunic Cuvântul lui Dumnezeu eficient.",
+    "cod_dar": "r",
+    "nr": 18
+  },
+  {
+    "intrebare": "Sunt căutat adesea de alţii pentru sfaturi în probleme spirituale sau personale.",
+    "cod_dar": "s",
+    "nr": 19
+  },
+  {
+    "intrebare": "Sunt atent, meticulos şi îndemânatic la detaliile de administrare.",
+    "cod_dar": "a",
+    "nr": 20
+  },
+  {
+    "intrebare": "Sunt atras de ideea de a sluji într-o altă ţară sau comunitate etnică.",
+    "cod_dar": "b",
+    "nr": 21
+  },
+  {
+    "intrebare": "Sunt îndemânatic în a lucra cu diferite unelte.",
+    "cod_dar": "c",
+    "nr": 22
+  },
+  {
+    "intrebare": "Îmi place să-mi dezvolt şi să-mi folosesc deprinderile artistice (arte plastice, teatru, muzică, fotografie, etc.)",
+    "cod_dar": "d",
+    "nr": 23
+  },
+  {
+    "intrebare": "Frecvent, pot să judec caracterul unei persoane pe baza primelor impresii.",
+    "cod_dar": "e",
+    "nr": 24
+  },
+  {
+    "intrebare": "Îmi place să îi întăresc şi să le dau siguranţă celor care sunt descurajaţi.",
+    "cod_dar": "f",
+    "nr": 25
+  },
+  {
+    "intrebare": "Caut în mod consecvent ocazii pentru a-mi face relaţii cu necreştini.",
+    "cod_dar": "g",
+    "nr": 26
+  },
+  {
+    "intrebare": "Am încredere în resursele şi ajutorul constant al lui Dumnezeu, chiar şi în momentele dificile.",
+    "cod_dar": "h",
+    "nr": 27
+  },
+  {
+    "intrebare": "Dau mai mult decât zeciuiala aşa încât lucrarea din Împărăţie să poate fi făcută.",
+    "cod_dar": "i",
+    "nr": 28
+  },
+  {
+    "intrebare": "Îmi place să fac lucruri de rutină care sprijină lucrarea.",
+    "cod_dar": "j",
+    "nr": 29
+  },
+  {
+    "intrebare": "Îmi place să întâlnesc oameni noi şi să-i ajut să se simtă bine-veniţi.",
+    "cod_dar": "k",
+    "nr": 30
+  },
+  {
+    "intrebare": "Îmi place să mă rog perioade lungi de timp şi să primesc călăuzire cu privire la ce vrea Dumnezeu să mă rog.",
+    "cod_dar": "l",
+    "nr": 31
+  },
+  {
+    "intrebare": "Primesc informaţii de la Duhul Sfânt pe care nu le-am cules prin mijloace naturale.",
+    "cod_dar": "m",
+    "nr": 32
+  },
+  {
+    "intrebare": "Sunt capabil să influenţez pe alţii în îndeplinirea unei viziuni.",
+    "cod_dar": "n",
+    "nr": 33
+  },
+  {
+    "intrebare": "Pot să sprijin cu răbdare pe cei care trec prin experienţe dureroase în timp ce încearcă să-şi stabilizeze vieţile.",
+    "cod_dar": "o",
+    "nr": 34
+  },
+  {
+    "intrebare": "Mă simt responsabil să confrunt pe alţii cu adevărul.",
+    "cod_dar": "p",
+    "nr": 35
+  },
+  {
+    "intrebare": "Am compasiune pentru credincioşii rătăciţi şi vreau să-i protejez.",
+    "cod_dar": "q",
+    "nr": 36
+  },
+  {
+    "intrebare": "Pot să petrec mult timp în studiu ştiind că prezentarea adevărului va aduce o schimbare în vieţile oamenilor.",
+    "cod_dar": "r",
+    "nr": 37
+  },
+  {
+    "intrebare": "Pot adesea să găsesc soluţii simple şi practice într-un conflict sau într-o confuzie.",
+    "cod_dar": "s",
+    "nr": 38
+  },
+  {
+    "intrebare": "Pot să clarific ţelurile şi să dezvolt strategii sau planuri pentru realizarea lor.",
+    "cod_dar": "a",
+    "nr": 39
+  },
+  {
+    "intrebare": "Doresc să particip activ la plantarea unei noi biserici.",
+    "cod_dar": "b",
+    "nr": 40
+  },
+  {
+    "intrebare": "Îmi place să produc lucruri de folos pentru lucrare.",
+    "cod_dar": "c",
+    "nr": 41
+  },
+  {
+    "intrebare": "Ajut oamenii să se înţeleagă mai bine pe ei înşişi, relaţiile lor şi pe Dumnezeu prin intermediul exprimării artistice.",
+    "cod_dar": "d",
+    "nr": 42
+  },
+  {
+    "intrebare": "Pot să disting minciuna şi înşelăciunea înainte de a fi evidente altora.",
+    "cod_dar": "e",
+    "nr": 43
+  },
+  {
+    "intrebare": "Dau speranţă altora îndreptându-i către promisiunile lui Dumnezeu.",
+    "cod_dar": "f",
+    "nr": 44
+  },
+  {
+    "intrebare": "Sunt eficient în adaptarea mesajului Evangheliei aşa încât să îl leg de nevoia simţită de individ.",
+    "cod_dar": "g",
+    "nr": 45
+  },
+  {
+    "intrebare": "Cred că Dumnezeu mă va ajuta să realizez lucruri mari.",
+    "cod_dar": "h",
+    "nr": 46
+  },
+  {
+    "intrebare": "Îmi administrez bine banii ca să am la dispoziţie cât mai mulţi pentru a-i dărui.",
+    "cod_dar": "i",
+    "nr": 47
+  },
+  {
+    "intrebare": "Doresc să fac o mare varietate de lucruri simple în jurul bisericii pentru a împlini nevoile altora.",
+    "cod_dar": "j",
+    "nr": 48
+  },
+  {
+    "intrebare": "Cred din tot sufletul că Domnul conduce oameni străini la mine care au nevoie de o legătură cu alţii.",
+    "cod_dar": "k",
+    "nr": 49
+  },
+  {
+    "intrebare": "Sunt conştient că slujesc altora în timp ce mă rog.",
+    "cod_dar": "l",
+    "nr": 50
+  },
+  {
+    "intrebare": "Sunt devotat şi planific ore pentru citirea şi studierea Scripturii, pentru a înţelege adevărul biblic pe deplin şi cu exactitate.",
+    "cod_dar": "m",
+    "nr": 51
+  },
+  {
+    "intrebare": "Pot să-mi adaptez stilul de conducere pentru a scoate ce este mai bun din alţii.",
+    "cod_dar": "n",
+    "nr": 52
+  },
+  {
+    "intrebare": "Îmi place să ajut oamenii care suntpriviţi uneori ca fiind nedemni pentru a fi ajutaţi sau imposibil de a fi ajutaţi.",
+    "cod_dar": "o",
+    "nr": 53
+  },
+  {
+    "intrebare": "Dau pe faţă cu îndrăzneală tendinţele culturale, învăţăturile sau evenimentele care vin în contradicţie cu principiile biblice.",
+    "cod_dar": "p",
+    "nr": 54
+  },
+  {
+    "intrebare": "Îmi place să asigur călăuzire întregii persoane - sub aspect relaţional, emoţional, spiritual, etc.",
+    "cod_dar": "q",
+    "nr": 55
+  },
+  {
+    "intrebare": "Acord o mare atenţie cuvintelor, expresiilor şi semnificaţiei celor care predau.",
+    "cod_dar": "r",
+    "nr": 56
+  },
+  {
+    "intrebare": "Pot alege cu uşurinţă cel mai eficient mod de acţiune din mai multe alternative.",
+    "cod_dar": "s",
+    "nr": 57
+  },
+  {
+    "intrebare": "Pot să identific şi să folosesc eficient resursele necesare realizării sarcinilor.",
+    "cod_dar": "a",
+    "nr": 58
+  },
+  {
+    "intrebare": "Pot să mă adaptez bine diferitelor culturi sau contexte.",
+    "cod_dar": "b",
+    "nr": 59
+  },
+  {
+    "intrebare": "Pot să-mi imaginez cum ar trebui construit ceva înainte de a-l construi.",
+    "cod_dar": "c",
+    "nr": 60
+  },
+  {
+    "intrebare": "Îmi place să găsesc noi căi relevante de comunicare a adevărului lui Dumnezeu.",
+    "cod_dar": "d",
+    "nr": 61
+  },
+  {
+    "intrebare": "Am tendinţa să văd adevărul sau greşeala în diverse situaţii.",
+    "cod_dar": "e",
+    "nr": 62
+  },
+  {
+    "intrebare": "Le redau siguranţă celor care trebuie să acţioneze cu curaj în credinţă, familie sau viaţă.",
+    "cod_dar": "f",
+    "nr": 63
+  },
+  {
+    "intrebare": "Invit necredincioşi să accepte pe Cristos ca Mântuitorul lor.",
+    "cod_dar": "g",
+    "nr": 64
+  },
+  {
+    "intrebare": "Mă încred în Dumnezeu în situaţii în care succesul nu poate fi garantat doar de efortul uman.",
+    "cod_dar": "h",
+    "nr": 65
+  },
+  {
+    "intrebare": "Mă simt provocat să-mi limitez stilul de viaţă pentru a putea dărui un procentaj mai mare din salariul meu.",
+    "cod_dar": "i",
+    "nr": 66
+  },
+  {
+    "intrebare": "Văd o semnificaţie spirituală în îndeplinirea unor sarcini practice.",
+    "cod_dar": "j",
+    "nr": 67
+  },
+  {
+    "intrebare": "Îmi place să creez un loc în care oamenii să nu simtă că sunt singuri.",
+    "cod_dar": "k",
+    "nr": 68
+  },
+  {
+    "intrebare": "Mă rog cu încredere, fiindcă ştiu că Dumnezeu lucrează ca răspuns la rugăciune.",
+    "cod_dar": "l",
+    "nr": 69
+  },
+  {
+    "intrebare": "Am pătrunderea necesară sau pur şi simplu ştiu când ceva este adevărat.",
+    "cod_dar": "m",
+    "nr": 70
+  },
+  {
+    "intrebare": "Stabilesc ţeluri şi administrez eficient oamenii şi resursele pentru îndeplinirea lor.",
+    "cod_dar": "n",
+    "nr": 71
+  },
+  {
+    "intrebare": "Am o mare compasiune pentru oamenii îndureraţi.",
+    "cod_dar": "o",
+    "nr": 72
+  },
+  {
+    "intrebare": "Disting cele mai multe acţiuni ca fiind bune sau rele şi simt nevoia să îndrept greşeala.",
+    "cod_dar": "p",
+    "nr": 73
+  },
+  {
+    "intrebare": "Pot asigura cu credincioşie altora sprijin şi purtare de grijă pe termen lung.",
+    "cod_dar": "q",
+    "nr": 74
+  },
+  {
+    "intrebare": "Îmi place să am o abordare sistematică în studiul Bibliei.",
+    "cod_dar": "r",
+    "nr": 75
+  },
+  {
+    "intrebare": "Pot să anticipez consecinţele plăcute ale acţiunii unui individ sau a unui grup.",
+    "cod_dar": "s",
+    "nr": 76
+  },
+  {
+    "intrebare": "Îmi place să ajut organizaţii sau grupuri să devină mai eficace.",
+    "cod_dar": "a",
+    "nr": 77
+  },
+  {
+    "intrebare": "Pot să-mi formez legături cu alţii în moduri ce implică o sensibilitate faţă de cultura lor.",
+    "cod_dar": "b",
+    "nr": 78
+  },
+  {
+    "intrebare": "Îl slăvesc pe Dumnezeu cu obiectele făcute de mine.",
+    "cod_dar": "c",
+    "nr": 79
+  },
+  {
+    "intrebare": "Aplic diferite expresii artistice în comunicarea adevărului lui Dumnezeu.",
+    "cod_dar": "d",
+    "nr": 80
+  },
+  {
+    "intrebare": "Primesc confirmarea de la alţii în ce priveşte veridicitatea ideilor sau percepţiilor mele.",
+    "cod_dar": "e",
+    "nr": 81
+  },
+  {
+    "intrebare": "Întăresc pe cei care sunt delăsători în credinţă.",
+    "cod_dar": "f",
+    "nr": 82
+  },
+  {
+    "intrebare": "Spun deschis oamenilor că sunt creştin şi vreau ca ei să mă întrebe despre credinţa mea.",
+    "cod_dar": "g",
+    "nr": 83
+  },
+  {
+    "intrebare": "Sunt convins de prezenţa şi acţiunea de ziz cu zi a lui Dumnezeu în viaţa mea.",
+    "cod_dar": "h",
+    "nr": 84
+  },
+  {
+    "intrebare": "Îmi place să ştiu că sprijinul meu financiar aduce schimbare în vieţile şi lucrările oamenilor lui Dumnezeu.",
+    "cod_dar": "i",
+    "nr": 85
+  },
+  {
+    "intrebare": "Îmi place să găsesc lucruri mici ce trebuie făcute şi adesea le fac fără să mi se ceară.",
+    "cod_dar": "j",
+    "nr": 86
+  },
+  {
+    "intrebare": "Îmi place să întreţin oamenii şi să-mi deschid casa pentru ei.",
+    "cod_dar": "k",
+    "nr": 87
+  },
+  {
+    "intrebare": "Când aud de situaţii cu nevoi, simt povara rugăciunii.",
+    "cod_dar": "l",
+    "nr": 88
+  },
+  {
+    "intrebare": "Știu lucruri dintr-o dată despre alţii, dar nu ştiu cum le-am aflat.",
+    "cod_dar": "m",
+    "nr": 89
+  },
+  {
+    "intrebare": "Influenţez pe alţii să dea ce pot mai bun din ei.",
+    "cod_dar": "n",
+    "nr": 90
+  },
+  {
+    "intrebare": "Pot să văd dincolo de handicapurile sau problemele unei persoane şi să întrezăresc o viaţă care contează în faţa lui Dumnezeu.",
+    "cod_dar": "o",
+    "nr": 91
+  },
+  {
+    "intrebare": "Îmi plac oamenii care sunt cinstiţi şi care doresc să proclame adevărul.",
+    "cod_dar": "p",
+    "nr": 92
+  },
+  {
+    "intrebare": "Îmi place să dau călăuzire şi sprijin practic unui grup mic de oameni.",
+    "cod_dar": "q",
+    "nr": 93
+  },
+  {
+    "intrebare": "Pot să comunic Scriptura în forme care motivează pe alţii să studieze.",
+    "cod_dar": "r",
+    "nr": 94
+  },
+  {
+    "intrebare": "Dau sfaturi practice pentru a ajuta pe alţii când trec prin situaţii complicate.",
+    "cod_dar": "s",
+    "nr": 95
+  },
+  {
+    "intrebare": "Îmi place să învăţ despre cum funcţionează organizaţiile.",
+    "cod_dar": "a",
+    "nr": 96
+  },
+  {
+    "intrebare": "Îmi place să fac pionierat în diferite domenii.",
+    "cod_dar": "b",
+    "nr": 97
+  },
+  {
+    "intrebare": "Sunt îndemânatic şi îmi place să lucrez manual.",
+    "cod_dar": "c",
+    "nr": 98
+  },
+  {
+    "intrebare": "Sunt creativ şi imaginativ.",
+    "cod_dar": "d",
+    "nr": 99
+  },
+  {
+    "intrebare": "Pot să identific predica, învăţătura sau comunicarea care nu este în concordanţă cu Biblia.",
+    "cod_dar": "e",
+    "nr": 100
+  },
+  {
+    "intrebare": "Îmi place să motivez pe alţii să facă paşi pe calea creşterii spirituale.",
+    "cod_dar": "f",
+    "nr": 101
+  },
+  {
+    "intrebare": "Spun deschis şi cu încredere altora despre ce a făcut Cristos pentru mine.",
+    "cod_dar": "g",
+    "nr": 102
+  },
+  {
+    "intrebare": "Provoc în mod regulat pe alţii să se încreadă în Dumnezeu.",
+    "cod_dar": "h",
+    "nr": 103
+  },
+  {
+    "intrebare": "Îmi fac cu generozitate datoria faţă de angajamentul la o bună administrare.",
+    "cod_dar": "i",
+    "nr": 104
+  },
+  {
+    "intrebare": "Mă simt comfortabil să fiu de ajutor, ajutându-i pe alţii să-şi facă treaba mai eficient.",
+    "cod_dar": "j",
+    "nr": 105
+  },
+  {
+    "intrebare": "Fac tot ce pot ca oamenii să simtă că aparţin comunităţii.",
+    "cod_dar": "k",
+    "nr": 106
+  },
+  {
+    "intrebare": "Mă simt onorat când cineva îmi cere să mă rog pentru el.",
+    "cod_dar": "l",
+    "nr": 107
+  },
+  {
+    "intrebare": "Descopăr adevăruri biblice importante când citesc sau studiez Scriptura, iar de ele beneficiază alţii în trupul lui Cristos.",
+    "cod_dar": "m",
+    "nr": 108
+  },
+  {
+    "intrebare": "Sunt capabil să deţin o viziune la care alţii vreau să ia parte.",
+    "cod_dar": "n",
+    "nr": 109
+  },
+  {
+    "intrebare": "Îmi place să aduc speranţă şi bucurie oamenilor care trec prin circumstanţe dificile.",
+    "cod_dar": "o",
+    "nr": 110
+  },
+  {
+    "intrebare": "Proclam adevărul lui Dumnezeu, chiar în locuri în care este nepopular sau dificil pentru alţii să accepte.",
+    "cod_dar": "p",
+    "nr": 111
+  },
+  {
+    "intrebare": "Pot readuce cu blândeţe pe credincioşii rătăciţi la credinţă şi părtăşie.",
+    "cod_dar": "q",
+    "nr": 112
+  },
+  {
+    "intrebare": "Pot să prezint altora informaţii şi îndemânări la un nivel la care le este uşor să le prindă şi să le aplice în vieţile lor.",
+    "cod_dar": "r",
+    "nr": 113
+  },
+  {
+    "intrebare": "Pot să aplic adevărul biblic pe care alţii îl privesc ca fiind practic şi de ajutor.",
+    "cod_dar": "s",
+    "nr": 114
+  },
+  {
+    "intrebare": "Pot să-mi imaginez un eveniment ce va avea loc, pot să anticipez problemele potenţiale şi să dezvolt planuri dinainte.",
+    "cod_dar": "a",
+    "nr": 115
+  },
+  {
+    "intrebare": "Sunt capabil să conduc sau să supraveghez lucrările din câteva biserici.",
+    "cod_dar": "b",
+    "nr": 116
+  },
+  {
+    "intrebare": "Sunt capabil să proiectez şi să construiesc lucruri care ajută biserica.",
+    "cod_dar": "c",
+    "nr": 117
+  },
+  {
+    "intrebare": "Am nevoie regulat să rămân singur ca să meditez şi să-mi dezvolt imaginaţia.",
+    "cod_dar": "d",
+    "nr": 118
+  },
+  {
+    "intrebare": "Pot să simt când forţele demonice sunt la lucru într-o persoană sau situaţie.",
+    "cod_dar": "e",
+    "nr": 119
+  },
+  {
+    "intrebare": "Sunt capabil să provoc sau să mustru pe alţii din dorinţa de a stimula creşterea spirituală.",
+    "cod_dar": "f",
+    "nr": 120
+  },
+  {
+    "intrebare": "Caut ocazii de a vorbi despre lucruri spirituale cu necredincioşii.",
+    "cod_dar": "g",
+    "nr": 121
+  },
+  {
+    "intrebare": "Pot să merg mai departe în ciuda opoziţiei sau lipsei de sprijin când simt binecuvântarea şi promisiunea lui Dumnezeu.",
+    "cod_dar": "h",
+    "nr": 122
+  },
+  {
+    "intrebare": "Cred că mi s-a dat o abundenţă de resurse aşa încât să pot da mai mult lucrării Domnului.",
+    "cod_dar": "i",
+    "nr": 123
+  },
+  {
+    "intrebare": "Sunt dispus şi fericit să-mi folosesc deprinderile naturale sau învăţate ca să ajut oriunde este nevoie.",
+    "cod_dar": "j",
+    "nr": 124
+  },
+  {
+    "intrebare": "Pot face pe oameni să se simtă uşuraţi în contexte nefamiliare.",
+    "cod_dar": "k",
+    "nr": 125
+  },
+  {
+    "intrebare": "Văd adesea rezultate specifice ca răspuns la rugăciunile mele.",
+    "cod_dar": "l",
+    "nr": 126
+  },
+  {
+    "intrebare": "Împărtăşesc cu încredere altora cunoaşterea şi ideile mele.",
+    "cod_dar": "m",
+    "nr": 127
+  },
+  {
+    "intrebare": "Îmi imaginez unde trebuie să ajungem şi ajut pe alţii să meargă înspre acolo.",
+    "cod_dar": "n",
+    "nr": 128
+  },
+  {
+    "intrebare": "Îmi place să fac lucruri practice pentru alţii care sunt în nevoie.",
+    "cod_dar": "o",
+    "nr": 129
+  },
+  {
+    "intrebare": "Mă simt forțat să dezvălui păcatul oriunde îl văd şi să provoc oamenii la pocăinţă.",
+    "cod_dar": "p",
+    "nr": 130
+  },
+  {
+    "intrebare": "Îmi place să educ pe alţii cu blândeţe, dar cu fermitate în creşterea lor ca şi credincioşi.",
+    "cod_dar": "q",
+    "nr": 131
+  },
+  {
+    "intrebare": "Îmi place să explic lucrurile oamenilor ca să poată creşte din punct de vedere spiritual şi personal.",
+    "cod_dar": "r",
+    "nr": 132
+  },
+  {
+    "intrebare": "Am discernământul necesar rezolvării problemelor, pe care alţii nu-l au.",
+    "cod_dar": "s",
+    "nr": 133
+  }
+]
