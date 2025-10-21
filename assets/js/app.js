@@ -657,6 +657,42 @@ async function init() {
 
   // Initial route
   router();
+
+  // Setup Back to Top button
+  setupBackToTop();
+}
+
+// ===========================
+// Back to Top Button
+// ===========================
+function setupBackToTop() {
+  const backToTopBtn = document.getElementById("backToTop");
+
+  if (!backToTopBtn) return;
+
+  // Show/hide button based on scroll position and current route
+  function updateBackToTopVisibility() {
+    const currentRoute = window.location.hash || "#/";
+    const isQuizPage = currentRoute === "#/quiz";
+    
+    // Hide on quiz page, show on other pages when scrolled
+    if (isQuizPage || window.scrollY <= 300) {
+      backToTopBtn.classList.remove("visible");
+    } else {
+      backToTopBtn.classList.add("visible");
+    }
+  }
+
+  window.addEventListener("scroll", updateBackToTopVisibility);
+  window.addEventListener("hashchange", updateBackToTopVisibility);
+
+  // Scroll to top when clicked
+  backToTopBtn.addEventListener("click", () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  });
 }
 
 // Start the app
