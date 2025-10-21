@@ -674,7 +674,7 @@ function setupBackToTop() {
   function updateBackToTopVisibility() {
     const currentRoute = window.location.hash || "#/";
     const isQuizPage = currentRoute === "#/quiz";
-    
+
     // Hide on quiz page, show on other pages when scrolled
     if (isQuizPage || window.scrollY <= 300) {
       backToTopBtn.classList.remove("visible");
