@@ -220,6 +220,26 @@ function renderHome() {
 // ===========================
 // Quiz Page
 // ===========================
+// Motivational messages for quiz
+const motivationalMessages = [
+  "Fii sincer cu tine însuți",
+  "Descoperă cum te-a înzestrat Dumnezeu",
+  "Răspunde din inimă, nu din minte",
+  "Fiecare răspuns te apropie de descoperire",
+  "Gândește-te la experiențele tale personale",
+  "Nu există răspunsuri greșite sau corecte",
+  "Reflectează asupra modului în care te simți natural",
+  "Sinceritatea te va ajuta mult!",
+  "Ia-ți timp să reflectezi la fiecare afirmație",
+  "Ești unic și special înzestrat - fiecare suntem!",
+];
+
+function getRandomMotivation() {
+  return motivationalMessages[
+    Math.floor(Math.random() * motivationalMessages.length)
+  ];
+}
+
 function renderQuiz() {
   const mainContent = document.getElementById("mainContent");
   const template = document.getElementById("quizTemplate");
@@ -228,6 +248,12 @@ function renderQuiz() {
   // Update page numbers
   document.getElementById("currentPage").textContent = state.currentPage;
   document.getElementById("totalPages").textContent = state.totalPages;
+
+  // Update motivational message
+  const motivationEl = document.getElementById("quizMotivation");
+  if (motivationEl) {
+    motivationEl.textContent = getRandomMotivation();
+  }
 
   // Render questions for current page
   renderQuestions();
@@ -673,7 +699,7 @@ function setupBackToTop() {
   // Show/hide button based on scroll position and current route
   function updateBackToTopVisibility() {
     const currentRoute = window.location.hash || "#/";
-    const isQuizPage = currentRoute === "#/quiz";
+    const isQuizPage = currentRoute.startsWith("#/quiz");
 
     // Hide on quiz page, show on other pages when scrolled
     if (isQuizPage || window.scrollY <= 300) {
