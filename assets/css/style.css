@@ -942,6 +942,46 @@ body {
   color: var(--text-secondary);
   line-height: 1.5;
   font-size: 0.875rem;
+  margin-bottom: var(--spacing-md);
+}
+
+.gift-references {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-xs);
+  margin-top: var(--spacing-sm);
+}
+
+.bible-ref {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px var(--spacing-sm);
+  background: linear-gradient(
+    135deg,
+    rgba(99, 102, 241, 0.08) 0%,
+    rgba(139, 92, 246, 0.08) 100%
+  );
+  border: 1px solid rgba(99, 102, 241, 0.2);
+  border-radius: var(--radius-md);
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--primary);
+  transition: var(--transition);
+}
+
+.bible-ref:hover {
+  background: linear-gradient(
+    135deg,
+    rgba(99, 102, 241, 0.15) 0%,
+    rgba(139, 92, 246, 0.15) 100%
+  );
+  border-color: rgba(99, 102, 241, 0.4);
+  transform: translateY(-1px);
+}
+
+.bible-ref svg {
+  margin-right: 4px;
+  flex-shrink: 0;
 }
 
 /* ===========================

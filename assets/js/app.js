@@ -558,6 +558,25 @@ function renderGifts() {
     html = html.replace(/{name}/g, gift.nume);
     html = html.replace(/{description}/g, gift.descriere);
 
+    // Build references HTML
+    let referencesHtml = "";
+    if (gift.referinte_biblice && gift.referinte_biblice.length > 0) {
+      referencesHtml = gift.referinte_biblice
+        .map(
+          (ref) => `
+                <span class="bible-ref">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                        <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                    </svg>
+                    ${ref}
+                </span>
+            `
+        )
+        .join("");
+    }
+    html = html.replace(/{references}/g, referencesHtml);
+
     const cardDiv = document.createElement("div");
     cardDiv.innerHTML = html;
     const card = cardDiv.firstElementChild;
