@@ -542,6 +542,114 @@ function renderResultsTable(scores) {
 }
 
 // ===========================
+// Bible Reference Link Builder
+// ===========================
+const BIBLE_BOOK_CODES = {
+  // Old Testament
+  Geneza: "GEN",
+  Exod: "EXO",
+  Levitic: "LEV",
+  Numeri: "NUM",
+  Deuteronom: "DEU",
+  Iosua: "JOS",
+  Judecători: "JDG",
+  Rut: "RUT",
+  "1 Samuel": "1SA",
+  "2 Samuel": "2SA",
+  "1 Regi": "1KI",
+  "2 Regi": "2KI",
+  "1 Cronici": "1CH",
+  "2 Cronici": "2CH",
+  Ezra: "EZR",
+  Neemia: "NEH",
+  Estera: "EST",
+  Iov: "JOB",
+  Psalmi: "PSA",
+  Proverbe: "PRO",
+  Eclesiastul: "ECC",
+  "Cântarea Cântărilor": "SNG",
+  Isaia: "ISA",
+  Ieremia: "JER",
+  Plângerile: "LAM",
+  Ezechiel: "EZK",
+  Daniel: "DAN",
+  Osea: "HOS",
+  Ioel: "JOL",
+  Amos: "AMO",
+  Obadia: "OBA",
+  Iona: "JON",
+  Mica: "MIC",
+  Naum: "NAM",
+  Habacuc: "HAB",
+  Tefania: "ZEP",
+  Hagai: "HAG",
+  Zaharia: "ZEC",
+  Maleahi: "MAL",
+  // New Testament
+  Matei: "MAT",
+  Marcu: "MRK",
+  Luca: "LUK",
+  Ioan: "JHN",
+  "Faptele Apostolilor": "ACT",
+  Romani: "ROM",
+  "1 Corinteni": "1CO",
+  "2 Corinteni": "2CO",
+  Galateni: "GAL",
+  Efeseni: "EPH",
+  Filipeni: "PHP",
+  Coloseni: "COL",
+  "1 Tesaloniceni": "1TH",
+  "2 Tesaloniceni": "2TH",
+  "1 Timotei": "1TI",
+  "2 Timotei": "2TI",
+  Tit: "TIT",
+  Filimon: "PHM",
+  Evrei: "HEB",
+  Iacov: "JAS",
+  "1 Petru": "1PE",
+  "2 Petru": "2PE",
+  "1 Ioan": "1JN",
+  "2 Ioan": "2JN",
+  "3 Ioan": "3JN",
+  Iuda: "JUD",
+  Apocalipsa: "REV",
+};
+
+function buildBibleLink(reference) {
+  // Parse reference like "1 Corinteni 12:28" or "Romani 12:8" or "Exod 31:3-5"
+  const match = reference.match(/^(.+?)\s+(\d+):(\d+)(?:-(\d+))?$/);
+
+  if (!match) {
+    // If we can't parse it, return null (no link)
+    return null;
+  }
+
+  const bookName = match[1].trim();
+  const chapter = match[2];
+  const verseStart = match[3];
+  const verseEnd = match[4]; // Optional, for ranges like 3-5
+
+  const bookCode = BIBLE_BOOK_CODES[bookName];
+
+  if (!bookCode) {
+    // Book not found in our mapping
+    return null;
+  }
+
+  // Build the URL with verse range if present
+  // Format: https://www.bible.com/bible/126/{BOOK}.{CHAPTER}.{VERSE}.NTR
+  // Or with range: https://www.bible.com/bible/126/{BOOK}.{CHAPTER}.{VERSE_START}-{VERSE_END}.NTR
+  let verseSpec = verseStart;
+  if (verseEnd) {
+    verseSpec = `${verseStart}-${verseEnd}`;
+  }
+
+  const url = `https://www.bible.com/bible/126/${bookCode}.${chapter}.${verseSpec}.NTR`;
+
+  return url;
+}
+
+// ===========================
 // Gifts Page
 // ===========================
 function renderGifts() {
@@ -562,17 +670,29 @@ function renderGifts() {
     let referencesHtml = "";
     if (gift.referinte_biblice && gift.referinte_biblice.length > 0) {
       referencesHtml = gift.referinte_biblice
-        .map(
-          (ref) => `
-                <span class="bible-ref">
-                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        .map((ref) => {
+          const bibleLink = buildBibleLink(ref);
+          const iconSvg = `<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
                         <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
-                    </svg>
+                    </svg>`;
+
+          if (bibleLink) {
+            return `
+                <a href="${bibleLink}" target="_blank" rel="noopener noreferrer" class="bible-ref bible-ref-link">
+                    ${iconSvg}
+                    ${ref}
+                </a>
+            `;
+          } else {
+            return `
+                <span class="bible-ref">
+                    ${iconSvg}
                     ${ref}
                 </span>
-            `
-        )
+            `;
+          }
+        })
         .join("");
     }
     html = html.replace(/{references}/g, referencesHtml);

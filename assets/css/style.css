@@ -967,6 +967,11 @@ body {
   font-weight: 500;
   color: var(--primary);
   transition: var(--transition);
+  text-decoration: none;
+}
+
+.bible-ref-link {
+  cursor: pointer;
 }
 
 .bible-ref:hover {
@@ -977,6 +982,10 @@ body {
   );
   border-color: rgba(99, 102, 241, 0.4);
   transform: translateY(-1px);
+}
+
+.bible-ref-link:hover {
+  box-shadow: var(--shadow-sm);
 }
 
 .bible-ref svg {
