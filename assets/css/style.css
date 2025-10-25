@@ -260,6 +260,7 @@ body {
 .menu-footer {
   border-top: 1px solid var(--border);
   padding-top: var(--spacing-lg);
+  padding-bottom: var(--spacing-xl);
 }
 
 .reset-btn {
@@ -1223,5 +1224,9 @@ body {
 
   .page-dots {
     display: none;
+  }
+
+  .menu-footer {
+    padding-bottom: calc(var(--spacing-xl) + var(--spacing-lg));
   }
 }
