@@ -82,6 +82,7 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: var(--spacing-md) var(--spacing-lg);
+  padding-bottom: calc(var(--spacing-md) + 8px);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -106,26 +107,46 @@ body {
 }
 
 .menu-btn {
-  background: none;
-  border: none;
+  background: rgba(255, 255, 255, 0.15);
+  border: 2px solid rgba(255, 255, 255, 0.3);
   cursor: pointer;
   padding: var(--spacing-sm);
   display: flex;
   flex-direction: column;
   gap: 4px;
   transition: var(--transition);
+  border-radius: var(--radius-md);
+  position: relative;
+}
+
+.menu-btn::after {
+  content: "MENIU";
+  position: absolute;
+  bottom: -18px;
+  right: 0;
+  font-size: 0.625rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: white;
+  opacity: 0.9;
 }
 
 .menu-btn span {
   width: 24px;
-  height: 2px;
+  height: 3px;
   background: white;
   border-radius: 2px;
   transition: var(--transition);
 }
 
+.menu-btn:hover {
+  background: rgba(255, 255, 255, 0.25);
+  border-color: rgba(255, 255, 255, 0.5);
+  transform: scale(1.05);
+}
+
 .menu-btn:hover span {
-  background: rgba(255, 255, 255, 0.8);
+  background: white;
 }
 
 .menu-btn:active {
@@ -1052,6 +1073,20 @@ body {
   }
 }
 
+@keyframes pulseMenu {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+  }
+  50% {
+    box-shadow: 0 0 0 8px rgba(255, 255, 255, 0);
+  }
+}
+
+.menu-btn.pulse {
+  animation: pulseMenu 2s ease-in-out 3;
+}
+
 /* ===========================
    Animations
    =========================== */
@@ -1231,7 +1266,10 @@ body {
   }
 
   .menu-footer {
-    padding-bottom: calc(var(--spacing-2xl) + var(--spacing-2xl) + env(safe-area-inset-bottom, 30px));
+    padding-bottom: calc(
+      var(--spacing-2xl) + var(--spacing-2xl) +
+        env(safe-area-inset-bottom, 30px)
+    );
   }
 
   .side-menu-content {

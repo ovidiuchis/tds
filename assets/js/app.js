@@ -717,6 +717,19 @@ function setupMenu() {
   const sideMenu = document.getElementById("sideMenu");
   const overlay = document.getElementById("overlay");
 
+  // Add pulse animation on first load (only once)
+  const hasSeenMenuPulse = localStorage.getItem("hasSeenMenuPulse");
+  if (!hasSeenMenuPulse) {
+    setTimeout(() => {
+      menuBtn.classList.add("pulse");
+      localStorage.setItem("hasSeenMenuPulse", "true");
+      // Remove class after animation completes
+      setTimeout(() => {
+        menuBtn.classList.remove("pulse");
+      }, 6000);
+    }, 2000);
+  }
+
   menuBtn.addEventListener("click", () => {
     sideMenu.classList.add("active");
     overlay.classList.add("active");
